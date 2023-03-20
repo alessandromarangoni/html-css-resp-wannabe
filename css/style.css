@@ -145,15 +145,21 @@ img {
     }
     
     .col{
-        width: 100% !important;
+        /* no important */
+        /* width: 100% !important; */
         padding: 2rem 0;
     }
+    .lessons .col,
+    .steps .col,
+    .why-us .col{
+        width: 100%;
+    }
+
 
     .col:first-child{
         padding: 1rem 0;
     }
     
-
     .steps {
         margin-bottom: 0;
     }
